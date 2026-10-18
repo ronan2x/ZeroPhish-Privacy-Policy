@@ -1,1 +1,0 @@
-# ZeroPhish-Privacy-Policy

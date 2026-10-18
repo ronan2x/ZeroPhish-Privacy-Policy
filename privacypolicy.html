@@ -1,0 +1,83 @@
+# ZeroPhish-Privacy-Policy
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – ZeroPhish Analyzer</title>
+<style>
+  :root { --bg:#ffffff; --ink:#1c2b33; --muted:#5b6b75; --line:#d3dce1; --accent:#1d5f73; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#10181d; --ink:#e6eef2; --muted:#9fb1ba; --line:#2a3a44; --accent:#6fc3d8; }
+  }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:17px/1.65 system-ui, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:44rem; margin:0 auto; padding:3rem 1.25rem 4rem; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 .25rem; }
+  h2 { font-size:1.2rem; margin:2.2rem 0 .5rem; padding-top:1.2rem; border-top:1px solid var(--line); }
+  p, ul { margin:.6rem 0; }
+  li { margin:.3rem 0; }
+  .meta { color:var(--muted); margin:0 0 1.5rem; }
+  .callout { border-left:4px solid var(--accent); padding:.2rem 1rem; margin:1.5rem 0; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Phishing Email Analyzer (Chrome extension) · Last updated: October 17, 2026</p>
+
+  <div class="callout">
+    <p><strong>In short:</strong> the extension reads an email only when you ask it to, analyzes it on your device, and does not collect, store, sell, or send your email data to anyone.</p>
+  </div>
+
+  <h2>What the extension does</h2>
+  <p>Phishing Email Analyzer helps you decide whether an email may be a phishing attempt. You can click a button to analyze the email you have open in Gmail, or paste in an email's source or open a saved .eml file. The extension scores the email for common warning signs and shows you the results in its popup.</p>
+
+  <h2>Information the extension handles</h2>
+  <p>To do its job, the extension handles the content of the email you choose to analyze, which can include:</p>
+  <ul>
+    <li>the sender, Reply-To, and Return-Path addresses and other email headers</li>
+    <li>the text of the message</li>
+    <li>links in the message</li>
+  </ul>
+  <p>This happens only when you click an analyze button, or paste or open an email yourself. The extension does not read your email in the background.</p>
+
+  <h2>How the information is used</h2>
+  <p>The email content is used for one purpose only: to calculate the phishing score and show you the reasons for it. All analysis runs locally in your browser.</p>
+
+  <h2>What we collect, store, and share</h2>
+  <ul>
+    <li><strong>We do not collect your data.</strong> The developer has no server, database, or account system, and receives no information from the extension.</li>
+    <li><strong>We do not store your data.</strong> Email content exists only while the popup is open. The extension does not save it, and it is gone when you close the popup.</li>
+    <li><strong>We do not share or sell your data.</strong> Nothing is sent to third parties, analytics services, or advertisers. The extension has no analytics, tracking, or cookies.</li>
+  </ul>
+  <p>One note on how Gmail analysis works: to read the full original message, the extension asks Gmail for it using your existing signed-in session, the same way Gmail's own "Download message" feature does. That request goes to Google's Gmail service, not to the developer, and is subject to Google's own privacy policy.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Access to your current Gmail tab</strong> (the <code>scripting</code> permission together with access to mail.google.com or the active tab): used only after you click "Analyze the open Gmail email," to read the message you have open.</li>
+  </ul>
+  <p>The extension requests no other permissions and loads no code from outside the extension package.</p>
+
+  <h2>Limited Use disclosure</h2>
+  <p>The use of information received by this extension complies with the Chrome Web Store User Data Policy, including the Limited Use requirements. Specifically:</p>
+  <ul>
+    <li>Data is used only to provide the extension's single purpose: analyzing an email for phishing signs.</li>
+    <li>Data is not transferred to others, except as needed to comply with applicable law.</li>
+    <li>Data is never used or transferred for personalized, re-targeted, or interest-based advertising.</li>
+    <li>Data is never read by humans, because the developer never receives it.</li>
+    <li>Data is not used or transferred to determine creditworthiness or for lending purposes.</li>
+  </ul>
+
+  <h2>Security and limits of the tool</h2>
+  <p>Because nothing leaves your device, there is no stored data on our side to protect or leak. The extension is a screening aid and not a guarantee of safety: a low score does not mean an email is safe, and a high score does not prove it is malicious. Always verify the sender before clicking links or sharing information.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If the extension's data practices change, this page will be updated and the date at the top will change.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy? Contact the developer, Ronan Molina, at <a href="mailto:ronanmolina10@gmail.com">ronanmolina10@gmail.com</a>.</p>
+</main>
+</body>
+</html>
